@@ -15,5 +15,6 @@ checkMessageButton.addEventListener("click", () => {
 });
 
 function isSpam(message) {
+    const helpRegex = /please help/;
   return false;
 }
