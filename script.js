@@ -9,3 +9,7 @@ checkMessageButton.addEventListener("click", () => {
   }
 
 });
+
+function isSpam(message) {
+  return false;
+}
