@@ -3,6 +3,7 @@ const result = document.getElementById("result-message");
 const checkMessageButton = document.getElementById("check-message-btn");
 
 const helpRegex = /please help|assist me/i;
+const dollarRegex = /dollars/i;
 const denyList = [helpRegex];
 const isSpam = (msg) => denyList.some(regex => regex.test(msg));
 
